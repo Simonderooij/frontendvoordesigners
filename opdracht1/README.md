@@ -28,4 +28,5 @@ Eerst heb ik variabelen gemaakt door alle huisafbeeldingen te selecteren, en all
 Daarna heb ik een foreach loop gemaakt, die de array af gaat van huisafbeeldingen.
 per huisafbeelding word er een click eventlistener op gezet.
 Als er geklikt word op een huisafbeelding, komt de goede beschrijving tevoorschijn via een classList toggle en de meegegeven index. 
-het item wat de foreach meekrijgt is het element (de huisafbeelding), en de index is de plek in de array.
+Het item is een item uit de array huisafbeelding en in dit geval is dat item een element (een huisafbeelding in de html). 
+De index is de plek in de array.
