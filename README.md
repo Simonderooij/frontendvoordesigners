@@ -1,8 +1,8 @@
 # frontend voor designers
 
-In het vak Frontend voor Designers leer je hoe je met HTML en CSS, en een beetje Javascript, snel en eenvoudig prototypes kan maken om je ontwerp ideeën te testen in een browser. We gaan animeren, responsive layouts uitproberen en interactie coderen ...
+Hier staan alle opdrachten die ik gemaakt heb voor het vak Frontend voor designers.
 
-Dit is de [online url](https://simonderooij.github.io/frontendvoordesigners/) met de opdrachten om te kunnen bekijken en testen in een browser.
+Via deze [link](https://simonderooij.github.io/frontendvoordesigners/) kunnen de opdrachten online bekeken worden en zie je de opdracht in werking.
 
 Het vak bestaat uit 3 opdrachten:
 
