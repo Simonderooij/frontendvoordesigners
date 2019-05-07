@@ -30,3 +30,11 @@ per huisafbeelding word er een click eventlistener op gezet.
 Als er geklikt word op een huisafbeelding, komt de goede beschrijving tevoorschijn via een classList toggle en de meegegeven index. 
 Het item is een item uit de array huisafbeelding en in dit geval is dat item een element (een huisafbeelding in de html). 
 De index is de plek in de array.
+
+## Principles of user interface design
+
+4. Keep users in control.
+Om duidelijk te maken dat je op een afbeelding kan drukken heb ik bij elke afbeelding een klein blokje tekst toegevoegd met de tekst "klik voor meer info..." Omdat ik voor op mobiel het simpel wil houden leek dit mij de duidelijkste oplossing.
+
+11. Strong visual hierarchies work best.
+De afbeeldingen worden getoont in een lijst en hebben allemaal dezelfde functie, als je er op klikt komt er informatie onder. Deze informatie staat ook altijd in dezelfde volgorde en is duidelijk te begrijpen en te lezen door de gebruiker.
