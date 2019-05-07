@@ -4,11 +4,11 @@ De opdracht die ik heb gekozen is het maken van een pagina met daarop verschille
 
 ## Demo:
 
-[Demo voor opdracht 1](https://simonderooij.github.io/frontendvoordesigners/opdracht1/v4/)
+[Demo voor opdracht 1](https://simonderooij.github.io/frontendvoordesigners/opdracht1/v5/)
 
 ## Broncode:
 
-[Code demo voor opdracht 1](https://github.com/Simonderooij/frontendvoordesigners/blob/master/opdracht1/v4/)
+[Code demo voor opdracht 1](https://github.com/Simonderooij/frontendvoordesigners/blob/master/opdracht1/v5/)
 
 ## Javascript:
 
