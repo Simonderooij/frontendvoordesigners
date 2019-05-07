@@ -8,3 +8,23 @@ De opdracht die ik heb gekozen is het maken van een pagina met daarop verschille
 Broncode:
 
 [Code demo voor opdracht 1](https://github.com/Simonderooij/frontendvoordesigners/blob/master/opdracht1/v4/)
+
+Javascript:
+
+```javascript
+var huisafbeelding = document.querySelectorAll(".woning");
+var huisbeschrijving = document.querySelectorAll(".huisbeschrijving");
+
+huisafbeelding.forEach(function(item, index) {
+  item.addEventListener("click", function(){
+    huisbeschrijving[index].classList.toggle('huisbeschrijvingaan');
+})
+})
+```
+Voor het maken van deze opdracht met javascript heb ik gekozen om een foreach loop te gebruiken, omdat er op elke afbeelding van een huis hetzelfde event moest gebeuren.
+
+Eerst heb ik variabelen gemaakt door alle huisafbeeldingen te selecteren, en alle huisbeschrijvingen.
+Daarna heb ik een foreach loop gemaakt, die de array af gaat van huisafbeeldingen.
+per huisafbeelding word er een click eventlistener op gezet.
+Als er geklikt word op een huisafbeelding, komt de goede beschrijving tevoorschijn via een classList toggle en de meegegeven index. 
+het item wat de foreach meekrijgt is de waarde hoeveelste huisafbeelding het is, en de index de plek in de array.
