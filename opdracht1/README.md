@@ -1,11 +1,10 @@
 # frontend voor designers - opdracht 1
-Hier beschrijf je de opdracht, wat je hebt gemaakt en hoe je je ontwerp door verschillende versies te testen hebt verbeterd. Bij iedere test voeg je een link toe naar de betreffende demo.
 
-Bijvoorbeel bij de demo van versie in kun je zo een link maken, zodat iedereen de demo zelf kan uitproberen:
+De opdracht die ik heb gekozen is het maken van een pagina met daarop verschillende huizen voor studenten. Als je op een afbeelding van een huis klikt, komt er onder de afbeelding een beschrijving van het huis tevoorschijn. Het is de bedoeling dat de pagina getoont wordt op een afmeting voor mobiel.
 
 [Demo 1 voor opdracht 1](https://simonderooij.github.io/frontendvoordesigners/opdracht1/v4/)
 
 
-Je kan ook een link plaatsen naar de bron code van de demo:
+Broncode:
 
 [Code demo 1 voor opdracht 1](https://github.com/Simonderooij/frontendvoordesigners/blob/master/opdracht1/v4/)
