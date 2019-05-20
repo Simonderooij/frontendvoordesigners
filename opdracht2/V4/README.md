@@ -39,4 +39,10 @@ Elke keer als er wordt geklikt, gaat de function in de eventlistener af. Eerst w
 ```
 En deze code wordt gebruikt voor elke toets. Het is in principe hetzelfde.
 
+## Principles of User Interface Design:
+
+### 6. One primary action per screen.
+Elke button heeft dezelfde actie, naar de volgende afbeelding. Deze actie kan je bereiken om er op te klikken of om een toets op het toetsenbord te gebruiken.
+### 14. Progressive disclosure.
+Er is heel duidelijk te zien wat de opties zijn op het scherm. de knoppen hebben toetsen op zich zodat je weet dat je ook via je toetsenbord hetzelfde resultaat kan bereiken.
 
