@@ -5,10 +5,10 @@ Voor de achtergrondcarousel is er nog een carousel met poppetjes op de voorgrond
 Alle images staan op elkaar met de opacity op 0, dus zijn ze onzichtbaar. Er is een image die de class active heeft, die de image zichtbaar maakt. Elke keer als je op een knop drukt gaat de active class naar de volgende image en word de huidige active class verwijderd. 
 ## Demo:
 De demo is bedoeld voor een mobiel.
-[Demo voor opdracht 2](https://simonderooij.github.io/frontendvoordesigners/opdracht2/V3/opdracht2)
+[Demo voor opdracht 2](https://simonderooij.github.io/frontendvoordesigners/opdracht2/V4)
 ## Broncode:
 
-[Code demo voor opdracht 2](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht2/V3/opdracht2)
+[Code demo voor opdracht 2](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht2/V4)
 
 ## Javascript:
 
