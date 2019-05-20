@@ -1,4 +1,4 @@
-// variabelen declareren uit HTML
+// variabelen declareren uit HTML code
 
 var bgleft = document.getElementById("bgleft");
 var bgright = document.getElementById("bgright");
