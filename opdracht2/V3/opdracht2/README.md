@@ -8,7 +8,7 @@ De demo is bedoeld voor een mobiel.
 [Demo voor opdracht 2](https://simonderooij.github.io/frontendvoordesigners/opdracht2/v3/opdracht2)
 ## Broncode:
 
-[Code demo voor opdracht 2](https://github.com/Simonderooij/frontendvoordesigners/blob/master/opdracht2/v3/opdracht2)
+[Code demo voor opdracht 2](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht2/V3/opdracht2)
 
 ## Javascript:
 
