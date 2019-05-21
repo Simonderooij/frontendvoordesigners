@@ -15,7 +15,7 @@ Elke keer als er wordt geklikt, gaat de function in de eventlistener af. Eerst w
 
 En deze code wordt gebruikt voor elke toets. Het is in principe hetzelfde.
 Daarom heb ik functies aangemaakt, zodat de code maar een keer in de javascript staat, en niet per button de zelfde code. Er zijn nog maar 2 functies, een voor de buttons die de images laten uploaden, en een voor de buttons die de images laten aflopen.
-### function en aanroepen voor links click buttons
+### function en aanroepen voor links knoppen
 ```javascript
 function knoplinks(afbeelding) {
     clickl = clickl - 1 
