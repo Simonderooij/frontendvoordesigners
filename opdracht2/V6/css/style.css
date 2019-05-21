@@ -25,13 +25,15 @@ body {
     overflow: hidden;
     border-radius: 20px;
     position: relative;
+    display: flex;
 }
 .background {
     position: absolute;
-    width: 100%;
+    width: 110%;
     height: auto;
     opacity: 0;
     transition: all .3s;
+    align-self: flex-end;
 }
 .background.active {
     opacity: 1;
