@@ -10,7 +10,7 @@ Alle images staan op elkaar met de opacity op 0, dus zijn ze onzichtbaar. Er is 
 [Code demo voor opdracht 2](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht2/V6)
 
 ## Javascript:
-
+### click eventlistener
 ```javascript
 bgleft.addEventListener("click", function() {
     clickBg = clickBg - 1 
@@ -25,7 +25,9 @@ bgleft.addEventListener("click", function() {
 
 ```
 Elke keer als er wordt geklikt, gaat de function in de eventlistener af. Eerst word de click veranderd met + of - 1, ligt er aan op welke knop er wordt gedrukt. Daarna wordt er gekeken of de click niet groter/kleiner wordt dan de hoeveelheid images die er zijn. Daarna wordt de active class verwijderd van alle images, en wordt er uiteindelijk een nieuwe active class toegevoegd op de image die gelijk staat met de hoeveelheid clicks. Deze code wordt gebruikt voor elke knop.
+### keypress eventlistener
 ```javascript
+document.addEventListener("keydown", function(e) {
     if (e.keyCode === 65) {
         clickBg = clickBg - 1 
         if (clickBg < 0) {
@@ -35,6 +37,8 @@ Elke keer als er wordt geklikt, gaat de function in de eventlistener af. Eerst w
             backgrounds[i].classList.remove('active')
         }
         backgrounds[clickBg].classList.add('active')
+        }
+    });
 ```
 En deze code wordt gebruikt voor elke toets. Het is in principe hetzelfde.
 Daarom heb ik het uiteindelijk nog in een functie gezet, zodat de code maar een keer in de javascript staat, en niet per button de zelfde code. Er zijn nog maar 2 functies, een voor de buttons die de images laten uploaden, en een voor de buttons die de images laten aflopen.
