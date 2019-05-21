@@ -5,10 +5,10 @@ Voor de achtergrondcarousel is er nog een carousel met poppetjes op de voorgrond
 Alle images staan op elkaar met de opacity op 0, dus zijn ze onzichtbaar. Er is een image die de class active heeft, die de image zichtbaar maakt. Elke keer als je op een knop drukt gaat de active class naar de volgende image en word de huidige active class verwijderd. 
 ## Demo:
 De demo is bedoeld voor een mobiel.
-[Demo voor opdracht 2](https://simonderooij.github.io/frontendvoordesigners/opdracht2/V5)
+[Demo voor opdracht 2](https://simonderooij.github.io/frontendvoordesigners/opdracht2/V6)
 ## Broncode:
 
-[Code demo voor opdracht 2](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht2/V5)
+[Code demo voor opdracht 2](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht2/V6)
 
 ## Javascript:
 
@@ -38,7 +38,7 @@ Elke keer als er wordt geklikt, gaat de function in de eventlistener af. Eerst w
         backgrounds[clickBg].classList.add('active')
 ```
 En deze code wordt gebruikt voor elke toets. Het is in principe hetzelfde.
-Daarom heb ik het uiteindelijk nog in een functie gezet, zodat de code maar een keer in de javascript staat, en niet per button de zelfde code.
+Daarom heb ik het uiteindelijk nog in een functie gezet, zodat de code maar een keer in de javascript staat, en niet per button de zelfde code. Er zijn nog maar 2 functies, een voor de buttons die de images laten uploaden, en een voor de buttons die de images laten aflopen.
 
 ## Principles of User Interface Design:
 
