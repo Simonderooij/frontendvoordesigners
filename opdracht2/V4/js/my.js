@@ -65,7 +65,7 @@ fgleft.addEventListener("click", function() {
 
 //zelfde code per knop, maar dan met de keydown eventlistener. moet nog een functie worden als ik tijd heb.
 
-document.addEventListener("keydown", function(e) {
+document.addEventListener("keydown", function(e) { // de e heeft veel variabelen van het element in zich.
     if (e.keyCode === 65) {
         clickBg = clickBg - 1 
         if (clickBg < 0) {
