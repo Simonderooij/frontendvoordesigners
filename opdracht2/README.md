@@ -38,6 +38,38 @@ Elke keer als er wordt geklikt, gaat de function in de eventlistener af. Eerst w
 ```
 En deze code wordt gebruikt voor elke toets. Het is in principe hetzelfde.
 Daarom heb ik het uiteindelijk nog in een functie gezet, zodat de code maar een keer in de javascript staat, en niet per button de zelfde code. Er zijn nog maar 2 functies, een voor de buttons die de images laten uploaden, en een voor de buttons die de images laten aflopen.
+### function en aanroepen voor click buttons
+```javascript
+function knoplinks(afbeelding) {
+    clickl = clickl - 1 
+    if (clickl < 0) {
+        clickl = afbeelding.length - 1
+    }
+    for (i = 0; i < afbeelding.length; i++) {
+        afbeelding[i].classList.remove('active')
+    }
+    afbeelding[clickl].classList.add('active')
+};
+
+//eventlisteners knoppen L en links
+bgleft.addEventListener("click", function(){knoplinks(backgrounds)});
+fgleft.addEventListener("click", function(){knoplinks(persons)});
+```
+### function aanroepen voor keypresses
+```javascript
+document.addEventListener("keydown", function(e) {
+    if (e.keyCode === 65) {
+        knoplinks(backgrounds);
+    } else if (e.keyCode === 68) {
+        knoprechts(backgrounds);
+    } else if (e.keyCode === 37) {
+        knoplinks(persons);
+    } else if (e.keyCode === 39) {
+        knoprechts(persons);
+    }
+});
+```
+
 
 ## Principles of User Interface Design:
 
