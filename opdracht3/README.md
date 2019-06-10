@@ -15,3 +15,5 @@ De JSON data is ook los, per film of genre of actors te gebruiken. Check die [hi
 
 Dit is een voorbeeld van het laden van de film data:
 [Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/v1/)
+
+[Demo voor opdracht 3](https://simonderooij.github.io/frontendvoordesigners/opdracht3/V6)
