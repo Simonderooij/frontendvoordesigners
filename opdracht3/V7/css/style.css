@@ -1,0 +1,141 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: darkslategray;
+    padding: 0;
+    margin: 0;
+}
+.no-scroll {
+    overflow: hidden;
+}
+section {
+     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+article {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 10px solid #0096c7;
+    position: relative;
+    cursor: pointer;
+}
+article h2 {
+    margin-top: 5px;
+}
+article p {
+    
+}
+
+article span {
+    margin-bottom: 5px;
+}
+article img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+article:after {
+    content: 'Lees het verhaal';
+    color: white;
+    font-size: 2.6em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(0,150,199,0.8);
+    opacity: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    cursor: pointer;
+}
+article:hover:after {
+    opacity: 1;
+}
+article div {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    border-radius: 5px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    pointer-events: none;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    overflow-y: scroll;
+    z-index: 1;
+    transition: opacity .3s;
+}
+.visible {
+    pointer-events: all;
+    opacity: 1; 
+}
+.overlay img {
+    top: 0;
+    width: 80%;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: white;
+}
+.right-button {
+    background-image: url('../images/keyR.svg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 25%;
+}
+.left-button {
+    background-image: url('../images/keyL.svg');
+     width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 25%;
+}
+.close-button {
+    background-image: url('../images/keyL.svg');
+     width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;  
+    cursor: pointer;
+}
