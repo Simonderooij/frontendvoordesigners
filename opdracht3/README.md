@@ -8,7 +8,7 @@ Als je hovered over een verhaal dan krijg je een overlay met de tekst lees het v
 
 ## Demo:
 
-[Code demo](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht3/V7)
+[Demo voor opdracht 3](https://simonderooij.github.io/frontendvoordesigners/opdracht3/V7)
 
 ## Broncode:
 
