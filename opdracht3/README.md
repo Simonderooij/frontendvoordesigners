@@ -187,11 +187,15 @@ function showVerhalen(jsonObj) {
 ```
 ## Principles of User Interface Design:
 
-### 6. One primary action per screen.
-Elke button heeft dezelfde actie, naar de volgende afbeelding. Deze actie kan je bereiken om er op te klikken of om een toets op het toetsenbord te gebruiken.
-### 14. Progressive disclosure.
-Er is heel duidelijk te zien wat de opties zijn op het scherm. de knoppen hebben toetsen op zich zodat je weet dat je ook via je toetsenbord hetzelfde resultaat kan bereiken.
+### 4. Keep users in control
+Ik zorg ervoor dat de gebruikers in control blijven door duidelijk aan te geven wat de gebruiker wel en niet kan doen. Als je op de lijst pagina bent met verhalen en je hovered over een verhaal, krijg je te zien dat je het verhaal kan lezen. de logische stap is om daar op te klikken. in de carousel heb je pijltjes met daarin nog een pijl die aangeeft welke toets je kan indrukken. Ook kan je natuurlijk op de knop drukken met de muis. links bovenin staat een kleinere knop naar links om terug te gaan naar de vorige pagina.
 
+### 9. Appearance follows behavoir.
+Alle elementen doen wat je denkt dat ze gaan doen. Als je op een verhaal klikt met de tekst daarop "Lees het verhaal", verwacht je dat je het verhaal in beeld krijgt. Het is logisch dat de knoppen links en rechts je naar het volgende of vorige verhaal brengen.
+De kleinere knop naar links, linksboven de carousel zorgt ervoor dat je terug gaat naar de vorige pagina met alle verhalen. Ook dat word vaak gebruikt en ligt voor de hand.
+
+### 11. Strong visual hierarchies work best.
+Elk verhaal heeft dezelfde vormgeving, orde en acties. Er is gebruik gemaakt van kopjes voor de titel, en tijdens de carousel worden er zo min mogelijk elementen gebruikt zodat alle aandacht aan het lezen van de tekst word besteed.
 
 
 [Demo voor opdracht 3](https://simonderooij.github.io/frontendvoordesigners/opdracht3/V7)
