@@ -1,5 +1,5 @@
 # frontend voor designers - opdracht 3
-Voor opdracht 2 maak ik een lijst met allemaal verhalen van blok web. Alle content heb ik uit een JSON file gehaald. In javascript heb ik HTML elementen angemaakt waar de content in komt. Als je op een verhaal klikt, wordt dit groot weergegeven en kom je in de carousel terecht. Je kan vanaf hier via de knoppen of toetsen op het toetsenbord door de carousel heen om verschillende verhalen te zien. Ook kan je weer uit de carousel gaan met een knop of toets.
+Voor opdracht 3 maak ik een lijst met allemaal verhalen van blok web. Alle content heb ik uit een JSON file gehaald. In javascript heb ik HTML elementen angemaakt waar de content in komt. Als je op een verhaal klikt, wordt dit groot weergegeven en kom je in de carousel terecht. Je kan vanaf hier via de knoppen of toetsen op het toetsenbord door de carousel heen om verschillende verhalen te zien. Ook kan je weer uit de carousel gaan met een knop of toets.
 
 Nadat alle verhalen zijn ingeladen, heeft elk verhaal een index. als je op een verhaal klikt, word die index de activestory, en kan je met de carousel met +1 en -1 door de verhalen heen.
 ## Demo:
