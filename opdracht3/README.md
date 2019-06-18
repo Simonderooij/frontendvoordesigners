@@ -122,11 +122,8 @@ function showVerhalen(jsonObj) {
 ```
 
 ### Functies voor de knopen van de overlay, een sluitknop om de overlay opacity uit te zetten via een class remove.
-### functies voor de knoppen links en rechts om de activeStory +1 of -1 te geven om door de carousel heen te gaan.
-### eventlisteners met click en keydown voor de knoppen van de overlay
-### functie die van de index de activestory maakt, en er voor zorgt dat je een default afbeelding ziet als je in de overlay op een verhaal komt die geen afbeelding heeft.
 ```javascript
-     //fucntie die er voor zorgt dat je de class visible weghaalt van overlay, waardoor hij weer weg gaat. ook de class no-scroll word weggehaald zodat je weer door de hele pagina kan scrollen.
+//functie die er voor zorgt dat je de class visible weghaalt van overlay, waardoor hij weer weg gaat. ook de class no-scroll word weggehaald zodat je weer door de hele pagina kan scrollen.
     function close() {
     overlay.classList.remove("visible")
     document.body.classList.remove("no-scroll")
@@ -152,7 +149,39 @@ function showVerhalen(jsonObj) {
     showOverlayImage(activeStory)
     console.log('left click')
     }
-  //aanroepen van functies met click eventlisteners  
+```
+### functies voor de knoppen links en rechts om de activeStory +1 of -1 te geven om door de carousel heen te gaan.
+```javascript
+ //functie die er voor zorgt dat je de class visible weghaalt van overlay, waardoor hij weer weg gaat. ook de class no-scroll word weggehaald zodat je weer door de hele pagina kan scrollen.
+    function close() {
+    overlay.classList.remove("visible")
+    document.body.classList.remove("no-scroll")
+    overlayImage.src = ''
+    console.log("close click")   
+    }
+    //functie die er voor zorgt dat je de volgende afbeelding ziet als je op de rechterknop of toets drukt.
+    function right() {
+    console.log(activeStory)
+    activeStory = activeStory + 1
+    if (activeStory > verhaal.length - 1) {
+      activeStory = 0
+    }
+    showOverlayImage(activeStory)
+    console.log('left click')
+    }
+    //functie die er voor zorgt dat je de volgende afbeelding ziet als je op de linkerknop of toets drukt.
+    function left() {
+    activeStory = activeStory - 1
+    if (activeStory < 0) {
+      activeStory = verhaal.length - 1
+    }
+    showOverlayImage(activeStory)
+    console.log('left click')
+    }
+```
+### eventlisteners met click en keydown voor de knoppen van de overlay
+```javascript
+ //aanroepen van functies met click eventlisteners  
   closeButton.addEventListener("click", function() {
       close();
   })
@@ -174,7 +203,9 @@ function showVerhalen(jsonObj) {
         close();
     }
     });
-    
+```
+### functie die van de index de activestory maakt, en er voor zorgt dat je een default afbeelding ziet als je in de overlay op een verhaal komt die geen afbeelding heeft.
+```javascript
     //functie die van de index van elke afbeelding in een article, de activeStory maakt, hierdoor kan je de activeStory + 1, of -1 geven waardoor je in de overlay met de knoppen door alle verhalen kan gaan. Ook in de overlay kijkt hij of de image beschikbaar is en laat anders een default afbeelding zien.
   function showOverlayImage(index) {
     activeStory = index
@@ -185,6 +216,9 @@ function showVerhalen(jsonObj) {
   }
 }
 ```
+
+
+
 ## Principles of User Interface Design:
 
 ### 4. Keep users in control
