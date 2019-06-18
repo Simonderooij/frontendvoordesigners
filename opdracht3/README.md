@@ -3,7 +3,8 @@ Voor opdracht 3 maak ik een lijst met allemaal verhalen van blok web. Alle conte
 
 Nadat alle verhalen zijn ingeladen, heeft elk verhaal een index. als je op een verhaal klikt, word die index de activestory, en kan je met de carousel met +1 en -1 door de verhalen heen.
 
-Als een afbeelding niet zichtbaar is krijg je een default afbeelding te zien met de tekst niet beschikbaar.
+Als een afbeelding niet zichtbaar is krijg je een default afbeelding te zien met de tekst niet beschikbaar. soort errorstate.
+Als je hovered over een verhaal dan krijg je een overlay met de tekst lees het verhaal. soort partial state.
 
 ## Demo:
 
