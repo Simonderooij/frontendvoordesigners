@@ -2,6 +2,9 @@
 Voor opdracht 3 maak ik een lijst met allemaal verhalen van blok web. Alle content heb ik uit een JSON file gehaald. In javascript heb ik HTML elementen angemaakt waar de content in komt. Als je op een verhaal klikt, wordt dit groot weergegeven en kom je in de carousel terecht. Je kan vanaf hier via de knoppen of toetsen op het toetsenbord door de carousel heen om verschillende verhalen te zien. Ook kan je weer uit de carousel gaan met een knop of toets.
 
 Nadat alle verhalen zijn ingeladen, heeft elk verhaal een index. als je op een verhaal klikt, word die index de activestory, en kan je met de carousel met +1 en -1 door de verhalen heen.
+
+Als een afbeelding niet zichtbaar is krijg je een default afbeelding te zien met de tekst niet beschikbaar.
+
 ## Demo:
 
 [Code demo](https://github.com/Simonderooij/frontendvoordesigners/tree/master/opdracht3/V7)
@@ -12,7 +15,7 @@ Nadat alle verhalen zijn ingeladen, heeft elk verhaal een index. als je op een v
 
 ## Javascript:
 
-### JSON file koppelen en variabelen aanmaken
+JSON file koppelen en variabelen aanmaken
 ```javascript
 // declareren van de html elementen en variabelen voor het laden van van de json file.
 var header = document.querySelector('header');
@@ -30,7 +33,7 @@ request.onload = function() {
   showVerhalen(Verhalen);
 }
 ```
-### HTML elementen aanmaken en aangeven wat er van de JSON file in de HTML moet.
+HTML elementen aanmaken en aangeven wat er van de JSON file in de HTML moet.
 ```javascript
 // functie met daarin het aanmaken van de articles met html elementen er in per verhaal, en de overlay met knoppen aanmaken.
 function showVerhalen(jsonObj) {
@@ -65,7 +68,7 @@ function showVerhalen(jsonObj) {
     
     section.appendChild(storyArticle);
 ```
-### Overlay aanmaken waar de carousel met verhalen te zien is
+Overlay aanmaken waar de carousel met verhalen te zien is
 ```javascript
      // voeg een class toe aan de overlay div, zodat deze div zichtbaar word als je op een article drukt. ook de class no-scroll word toegevoegd zodat je niet de achtergrond kan blijven scrollen
     storyArticle.addEventListener("click", function() {
@@ -76,8 +79,7 @@ function showVerhalen(jsonObj) {
     })
   }
 ```
-
-### Overlay HTML elementen aanmaken 
+Overlay HTML elementen aanmaken 
 ```javascript
 //maak de html elementen aan voor de overlay div, de afbeelding en knoppen in de overlay om door de verhalen te gaan.
   var overlay = document.createElement('div')
@@ -99,7 +101,7 @@ function showVerhalen(jsonObj) {
   section.appendChild(overlay)
 ```
 
-### Overlay HTML elementen aanmaken 
+Overlay HTML elementen aanmaken 
 ```javascript
 //maak de html elementen aan voor de overlay div, de afbeelding en knoppen in de overlay om door de verhalen te gaan.
   var overlay = document.createElement('div')
@@ -121,7 +123,7 @@ function showVerhalen(jsonObj) {
   section.appendChild(overlay)
 ```
 
-### Functies voor de knopen van de overlay, een sluitknop om de overlay opacity uit te zetten via een class remove.
+Functies voor de knopen van de overlay, een sluitknop om de overlay opacity uit te zetten via een class remove.
 ```javascript
 //functie die er voor zorgt dat je de class visible weghaalt van overlay, waardoor hij weer weg gaat. ook de class no-scroll word weggehaald zodat je weer door de hele pagina kan scrollen.
     function close() {
@@ -150,7 +152,7 @@ function showVerhalen(jsonObj) {
     console.log('left click')
     }
 ```
-### functies voor de knoppen links en rechts om de activeStory +1 of -1 te geven om door de carousel heen te gaan.
+functies voor de knoppen links en rechts om de activeStory +1 of -1 te geven om door de carousel heen te gaan.
 ```javascript
  //functie die er voor zorgt dat je de class visible weghaalt van overlay, waardoor hij weer weg gaat. ook de class no-scroll word weggehaald zodat je weer door de hele pagina kan scrollen.
     function close() {
@@ -179,7 +181,7 @@ function showVerhalen(jsonObj) {
     console.log('left click')
     }
 ```
-### eventlisteners met click en keydown voor de knoppen van de overlay
+eventlisteners met click en keydown voor de knoppen van de overlay
 ```javascript
  //aanroepen van functies met click eventlisteners  
   closeButton.addEventListener("click", function() {
@@ -204,7 +206,7 @@ function showVerhalen(jsonObj) {
     }
     });
 ```
-### functie die van de index de activestory maakt, en er voor zorgt dat je een default afbeelding ziet als je in de overlay op een verhaal komt die geen afbeelding heeft.
+functie die van de index de activestory maakt, en er voor zorgt dat je een default afbeelding ziet als je in de overlay op een verhaal komt die geen afbeelding heeft.
 ```javascript
     //functie die van de index van elke afbeelding in een article, de activeStory maakt, hierdoor kan je de activeStory + 1, of -1 geven waardoor je in de overlay met de knoppen door alle verhalen kan gaan. Ook in de overlay kijkt hij of de image beschikbaar is en laat anders een default afbeelding zien.
   function showOverlayImage(index) {
